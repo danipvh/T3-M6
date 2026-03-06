@@ -1,0 +1,3 @@
+Zapatillas,25990
+Jeans,12990
+Polera,9990

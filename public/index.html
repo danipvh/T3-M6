@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Gestión de Productos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Gestión de Productos</h1>
+
+<div class="acciones">
+
+<button onclick="cargarProductos()">LISTA DE ARTÍCULOS</button>
+
+<select id="orden" onchange="mostrarProductos()">
+<option value="nombre">Ordenar por nombre</option>
+<option value="precio">Ordenar por precio</option>
+</select>
+
+</div>
+
+<div id="lista"></div>
+
+<h2>Agregar nuevo producto</h2>
+
+<div class="formulario">
+
+<input type="text" id="nombre" placeholder="Nombre del producto">
+
+<input type="number" id="precio" placeholder="Precio">
+
+<button onclick="agregarProducto()">AGREGAR PRODUCTO</button>
+
+</div>
+
+<div class="imagen">
+
+<img src="producto.jpg" alt="producto">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#f4f4f4;
+margin:0;
+}
+
+.container{
+width:600px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+margin-bottom:30px;
+}
+
+.acciones{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+}
+
+button{
+padding:8px 14px;
+border:none;
+background:#0077cc;
+color:white;
+border-radius:4px;
+cursor:pointer;
+}
+
+button:hover{
+background:#005fa3;
+}
+
+select{
+padding:6px;
+}
+
+#lista{
+margin-top:10px;
+}
+
+#lista div{
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+.formulario{
+display:flex;
+gap:10px;
+margin-top:15px;
+}
+
+.formulario input{
+padding:6px;
+flex:1;
+}
+
+.imagen{
+text-align:center;
+margin-top:25px;
+}
+
+.imagen img{
+width:150px;
+opacity:0.9;
+}
